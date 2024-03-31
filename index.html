@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar AYO</title>
+  <link rel="shortcut icon" href="images/iconweb.svg" type="image/x-icon">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- My Style -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<style>
+  nav ul li:first-child a {
+    color: #2447f9;
+  }
+
+  body{
+    scroll-behavior: smooth;
+  }
+
+  @media screen and (max-width: 576px) {
+    nav ul li:first-child a{
+      color: white !important;
+    }
+  }
+
+ 
+</style>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar"> 
+    <div class="nav-logo">
+      <h3><a href="#">Belajar<span>Ayo</span></a></h3>
+    </div>
+    <ul class="nav-links">
+      <li><a class="nav-link" href="">Home</a></li>
+      <li><a class="nav-link" href="#why">Why Choose us</a></li>
+      <li><a class="nav-link" href="#top">Top Classes</a></li>
+      <li><a class="nav-link" href="#mentor">Our mentor</a></li>
+      <li><a class="nav-link" href="#review">Class review</a></li>
+      <li><a class="nav-link" href="#contact">Contacts</a></li>
+    </ul>
+    <div class="menu-toggle">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Content selanjutnya tinggal masukin ke dalam container -->
+  <div class="container jumbutron" id="#home">
+    <!-- Hero Section -->
+    <section class="hero" style="align-items: center;margin-top: auto; margin-bottom: auto;">
+      <div class="hero-typography">
+        <h1 class="hero-heading">
+          Let's begin your study journey
+        </h1>
+        <p class="hero-paragraph">
+          Nikmati sensasi belajar bersama mentor berpengalaman di bidangnya dan mendapatkan sertifikat resmi
+          untuk membangun karir masa depan
+        </p>
+
+        <div class="hero-btn">
+          <a href="#class">Mulai Belajar</a>
+          <a href="html/signup.html">Daftar Kelas</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/jbtrn.jpg" alt="" style="height: 350px;">
+      </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- Services Section -->
+    <section id="why" class="services" >
+      <div class="service-heading">
+        <h3>Why Choose Us</h3>
+        <h1>Platform Belajar Online
+          Berkurikulum Internasional</h1>
+      </div>
+      <div class="services-card-wrap">
+        <div class="service-card-wrapper">
+            <img src="images/icons/folder.webp" alt="">
+          <h3>Studi Kasus</h3>
+          <p>Kita akan belajar membangun sebuah
+            real-world project di bidang IT</p>
+        </div>
+        <div class="service-card-wrapper">
+            <img src="images/icons/chat.webp" alt="">
+          <h3>Konsultasi</h3>
+          <p>Gabung dengan private group untuk
+            berkonsultasi dengan mentor kelas</p>
+        </div>
+        <div class="service-card-wrapper">
+            <img src="images/icons/clock.webp" alt="">
+          <h3>Lifetime Access</h3>
+          <p>Mempelajari dan memahami materi
+            kelas lebih santai tanpa batasan waktu</p>
+        </div>
+        <div class="service-card-wrapper">
+            <img src="images/icons/offline.webp" alt="">
+          <h3>Offline Mode</h3>
+          <p>Pelajari materi kelas tanpa
+            harus terhubung dengan Internet</p>
+        </div>
+        <div class="service-card-wrapper">
+            <img src="images/icons/bag.webp" alt="">
+          <h3>Portfolio</h3>
+          <p>Pelajari dan miliki hasil karya untuk
+            membangun karir masa depan</p>
+        </div>
+        <div class="service-card-wrapper">
+            <img src="images/icons/certificate.webp" alt="">
+          <h3>Bersertifikat Resmi</h3>
+          <p>Selesaikan kelas dan projek dan
+            dapatkan sertifikat dari kami</p>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Services Section -->
+
+    <!-- Class Section -->
+    <section id="top" class="classes">
+      <div class="class-heading">
+        <h3>Top Classes</h3>
+        <h1>Mari Kita Tingkatkan
+          Keahlian Desain dan Kode</h1>
+      </div>
+      <div class="classes-card-wrapper">
+        <div class="class-card-wrap">
+          <img src="images/courses-images/fullstackweb.webp" alt="fullstack web dev">
+          <div class="class-description">
+            <h1>Full Stack Web Development</h1>
+            <div class="discount-class">
+              <p>Rp 690,000</p>
+              <p>Rp 432,000</p>
+            </div>
+            <div class="class-rating">
+              <img src="images/rating.webp" alt="class rating">
+              <span>(5,400)</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <p>Subscribe / Sekali Bayar</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2447f9" fill-opacity="1" d="M0,0L48,26.7C96,53,192,107,288,106.7C384,107,480,53,576,69.3C672,85,768,171,864,176C960,181,1056,107,1152,64C1248,21,1344,11,1392,5.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          </div>
+        </div>
+        <div class="class-card-wrap">
+          <img src="images/courses-images/flutterdev.webp" alt="Flutter dev">
+          <div class="class-description">
+            <h1>Flutter Development</h1>
+            <div class="discount-class">
+            <p>Rp 620,000</p>
+            <p>Rp 412,000</p>
+          </div>
+          <div class="class-rating">
+            <img src="images/rating.webp" alt="class rating">
+            <span>(4,800)</span>
+          </div>
+          </div>
+          <div class="card-footer">
+            <p>Subscribe / Sekali Bayar</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2447f9" fill-opacity="1" d="M0,0L48,26.7C96,53,192,107,288,106.7C384,107,480,53,576,69.3C672,85,768,171,864,176C960,181,1056,107,1152,64C1248,21,1344,11,1392,5.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          </div>
+        </div>
+        <div class="class-card-wrap">
+          <img src="images/courses-images/uiux.webp" alt="ui ux design">
+          <div class="class-description">
+            <h1>UI UX Design</h1>
+            <div class="discount-class">
+            <p>Rp 399,999</p>
+            <p>Rp 123,000</p>
+          </div>
+          <div class="class-rating">
+            <img src="images/rating.webp" alt="class rating">
+            <span>(6,200)</span>
+          </div>
+          </div>
+          <div class="card-footer">
+            <p>Sekali Bayar Akses Selamanya</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2447f9" fill-opacity="1" d="M0,0L48,26.7C96,53,192,107,288,106.7C384,107,480,53,576,69.3C672,85,768,171,864,176C960,181,1056,107,1152,64C1248,21,1344,11,1392,5.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          </div>
+        </div>
+      </div>
+      <a href="html/courses.html" class="class-btn" target="_blank">All Courses &#10140</a>
+    </section>
+    <!-- Akhir dari class section -->
+
+    <!-- Mentor Section -->
+    <section class="mentor" id="mentor">
+      <div class="mentor-heading">
+        <h3>Our Mentor</h3>
+        <h1>Belajar Bersama Mentor Berpengalaman Di Bidangnya</h1>
+      </div>
+      <div class="profile-wrapper">
+        <div class="profile-box">
+          <div class="profile">
+            <img src="images/mentors/man3.webp" alt="">
+            <div class="social">
+              <a href="https://twitter.com/hafidzrdwn/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/hafidzrdwn/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/hafidzrdwn/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <h2>Hafidz Ridwan</h2>
+            <p>CEO</p>
+          </div>
+        </div>
+        <div class="profile-box">
+          <div class="profile">
+            <img src="images/mentors/man2.webp" alt="">
+            <div class="social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <h2>Axel Nicolas</h2>
+            <p>Full-Stack Web Developer</p>
+          </div>
+        </div>
+        <div class="profile-box">
+          <div class="profile">
+            <img src="images/mentors/woman.webp" alt="">
+            <div class="social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <h2>Laora Bells</h2>
+            <p>Front-End Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir dari mentor section -->
+
+    <!-- Testimonial Section -->
+    <section class="testimonial" id="review">
+      <div class="testimonial-heading">
+        <h3>Class Review</h3>
+        <h1>Membangun Hasil Karya
+          Yang Bermanfaat</h1>
+      </div>
+      <div class="testimonial-wrapper">
+        <img src="images/testimonial-img.webp" alt="">
+        <div class="testimonial-card-wrapper">
+          <div class="testi-card">
+            <div class="testi-profile">
+              <img src="images/reviewers/people-1.webp" alt="">
+              <h3>Bruce Samuel</h3>
+              <span>Web Developer</span>
+            </div>
+            <div class="testi-description">
+              <p>Kelas yang sangat bermanfaat dan ilmu up-to-date dan yang paling penting biayanya terjangkau.</p>
+              <img src="images/rating.webp" alt="">
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-profile">
+              <img src="images/reviewers/people-2.webp" alt="">
+              <h3>Antonella Rose</h3>
+              <span>UI UX Designer</span>
+            </div>
+            <div class="testi-description">
+              <p>Kelas yang sangat bagus, Penjelasan dari Video sangat Jelas dan mudah untuk dimengerti.</p>
+              <img src="images/rating.webp" alt="">
+            </div>
+          </div>
+          <a href="html/allreviews.html" class="testi-btn" target="_blank">See More Review &#10140</a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir dari Testimonial Section -->
+
+    <!-- Form Section -->
+    <section class="form" id="contact">
+      <div id="signup" class="form-heading">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="form-wrapper">
+        <div class="form-input">
+          <h3>Send Message</h3>
+          <form autocomplete="off" class="form-contact">
+            <div class="inputBox">
+              <input class="contact-name" type="text" required>
+              <span>Nama Lengkap</span>
+            </div>
+            <div class="inputBox">
+              <input class="contact-email" type="text" required>
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea class="contact-msg" required></textarea>
+              <span>Ketik pesanmu..</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Kirim">
+            </div>
+          </form>
+        </div>
+        <div class="form-info">
+          <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-box-desc">
+              <h3>Address</h3>
+              <p>PT BelajarAyo Indonesia Jl. in aja dulu Surabaya, Indonesia</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <div class="info-box-desc">
+              <h3>Phone</h3>
+              <p>+6282123456789</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div class="info-box-desc">
+              <h3>Email</h3>
+              <p>belajarayoon@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir dari form section -->
+    <section class="registration">
+      <img src="images/form-img.webp" alt="">
+      <h1>Ready to Build Your Future?</h1>
+      <p>Belajar langsung dari mentor berpengalaman
+        di bidangnya tanpa batas waktu</p>
+      <a href="html/signup.html">Daftar & Free 4 Kelas</a>
+    </section>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <h3>Belajar<span>Ayo</span></h3>
+      <p>Let's begin your own study journey</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="middle-footer">
+      <div class="box">
+        <h2>Products</h2>
+        <ul>
+          <li><a href="#">Online Course</a></li>
+          <li><a href="#">Online Bootcamp</a></li>
+          <li><a href="#">Ebook</a></li>
+          <li><a href="#">Design Resources</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h2>Shortcut</h2>
+        <ul>
+          <li><a class="nav-link" href="">Home</a></li>
+      <li><a class="nav-link" href="#why">Why Choose us</a></li>
+      <li><a class="nav-link" href="#top">Top Classes</a></li>
+      <li><a class="nav-link" href="#mentor">Our mentor</a></li>
+      <li><a class="nav-link" href="#review">Class review</a></li>
+      <li><a class="nav-link" href="#contact">Contacts</a></li>
+
+        </ul>
+      </div>
+      <div class="box">
+        <h2>Address</h2>
+        <ul>
+          <li>PT Mencari cinta sejati</li>
+          <li>Jl. in aja dulu</li>
+          <li>bwi</li>
+          <li>Indonesia</li>
+        </ul>
+      </div>
+    </div>
+    <p>Copyright &copy; 2024 </p>
+  </footer>
+</body>
+<script src="https://kit.fontawesome.com/ba150134be.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>  
+</html>

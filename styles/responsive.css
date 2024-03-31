@@ -1,0 +1,597 @@
+/* Responsive Breakpoint */
+/* Extra Large Devices */
+@media screen and (max-width: 2200px){
+    .class-card-wrap{
+        height: 650px;
+        width: 27rem;
+    }
+    .container, nav {
+        width: 75% !important;
+    }
+    .hero-image .lottie {
+        width: 600px;
+    }
+    h1.hero-heading {
+        font-size: 3.8rem;
+        max-width: 70%;
+    }
+    p.hero-paragraph {
+        max-width: 75%;
+        font-size: 18px;
+    }
+
+    .about-us img {
+        width: 70% !important;
+    }
+    .about-desc {
+        width: 40% !important;
+        padding-left: 35px !important;
+    }
+    .about-desc h2 {
+        font-size: 2.2rem !important;
+        max-width: 70% !important;
+    }
+    .about-desc p {
+        margin: 20px 0 40px !important;
+        font-size: 1.2rem !important;
+    }
+    .about-icons > a {
+        font-size: 22px;
+    }
+    .member-info {
+        width: 825px !important;
+        bottom: 8px !important;
+    }
+    .member-info span.member-sum {
+        font-size: 26px;
+    }
+    .member-info span.member-title {
+        font-size: 19px !important;
+    }
+
+    .courses .courses-heading p,
+    .reviews .reviews-heading p {
+        font-size: 20px !important;
+    }
+
+    .courses-card-wrapper .course-card {
+        width: 335px !important;
+        height: 510px !important;
+    }
+}
+/* Large Devices */
+@media screen and (max-width: 1440px){
+    .container,
+    nav {
+        width: 85% !important;
+    }
+    .hero-image .lottie {
+        width: 533px;
+    }
+    h1.hero-heading {
+        font-size: 3.2rem;
+        max-width: 100%;
+    }
+    p.hero-paragraph {
+        max-width: 90%;
+        font-size: 16px;
+    }
+
+    .class-card-wrap {
+        height: 560px;
+        width: 20rem;
+    }
+
+    .about-us img {
+        width: 65% !important;
+    }
+    .about-desc {
+        width: 45% !important;
+    }
+    .about-desc h2 {
+        font-size: 1.8rem !important;
+        max-width: 80% !important;
+    }
+    .about-desc p {
+        margin: 20px 0 30px !important;
+        font-size: 16px !important;
+    }
+    .about-icons>a {
+        font-size: 22px;
+    }
+    .member-info {
+        width: 500px !important;
+        bottom: 5px !important;
+    }
+    .member-info span.member-sum {
+        font-size: 20px;
+    }
+    .member-info span.member-title {
+        font-size: .9rem !important;
+    }
+
+    .courses .courses-heading h1,
+    .reviews .reviews-heading h1 {
+        font-size: 2.4rem !important;
+    }
+    .courses .courses-heading p,
+    .reviews .reviews-heading p {
+        font-size: 18px !important;
+    }
+    .courses-card-wrapper .course-card {
+        width: 328px !important;
+    }
+}
+/* Semi Large Devices */
+@media screen and (max-width: 992px){
+    .container, nav {
+        width: 100% !important;
+        padding: 0 50px;
+    }
+    .hero-image .lottie {
+        width: 335px;
+    }
+
+    h1.hero-heading {
+        font-size: 2.3rem;
+        max-width: 100%;
+    }
+
+    p.hero-paragraph {
+        max-width: 90%;
+        font-size: 13px;
+    }
+
+    .service-heading h1,
+    .class-heading h1,
+    .mentor-heading h1,
+    .testimonial-heading h1,
+    .registration h1 {
+        font-size: 1.8rem;
+        max-width: 75%;
+    }
+
+    .service-card-wrapper {
+        width: 43%;
+    }
+    .profile-box {
+        width: 45%;
+    }
+    .testi-description p {
+        font-size: .8rem;
+    }
+    .form-wrapper {
+        row-gap: 75px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .form-info {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 75px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .form .info-box {
+        width: 40%;
+        justify-content: flex-start;
+        column-gap: 12px;
+    }
+    .form .info-box .info-box-desc {
+        width: 80%;
+    }
+    .form-input {
+        width: 60%;
+    }
+    .registration p {
+        max-width: 80%;
+    }
+
+    .about-us img {
+        width: 100% !important;
+    }
+    .about-desc {
+        width: 50% !important;
+        right: 30px !important;
+        top: 38% !important;
+    }
+    .about-desc h2 {
+        font-size: 1.4rem !important;
+    }
+    .about-desc p {
+        font-size: 13px !important;
+        text-align: justify;
+    }
+    .about-icons>a {
+        font-size: 20px;
+    }
+    .member-info {
+        width: 85% !important;
+        bottom: 5px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+}
+/* Medium Devices */
+@media screen and (max-width: 768px){
+    .container{
+        padding-top: 120px !important;
+    }
+    /* Navbar */
+    nav{
+        width: 90%;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    .btn-utility a{
+        width: 90px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    /* Hero Section */
+    .hero{
+        flex-direction: column;
+    }
+    .hero-image .lottie{
+       width: 100%;
+       margin-top:-10px ;
+    }
+    .hero-typography{
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    h1.hero-heading{
+        font-size: 2.5rem;
+    }
+    p.hero-paragraph{
+        max-width: 100%;
+    }
+    .hero-btn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .hero-btn a{
+        width: 100%;
+        margin: 0 0 15px !important;
+        text-align: center;
+    }
+
+    /* Services Section */
+    .service-heading h1{
+        max-width: 100%;
+    }
+    .service-card-wrapper{
+        width: 45%;
+    }
+
+    /* Class Section */
+    .class-heading h1,.mentor-heading h1{
+        max-width: 80%;
+    }
+    .class-card-wrap{
+        width: 100%;
+        height: 750px !important;
+    }
+    .class-description h1{
+        font-size: 2rem;
+    }
+    .discount-class > p{
+        font-size: 1rem;
+    }
+    .class-rating > img{
+        width: 165px;
+    }
+    .card-footer{
+       height: 180px;
+    }
+
+    /* Mentor Profile Section */
+    .mentor-heading h1{
+        font-size: 1.7rem;
+    }
+    .profile-box {
+        width: 45%;
+    }
+    .social {
+    justify-content: center;
+    }
+    .social a {
+    margin: 0 15px;
+    }
+    .profile img:hover {
+    transform: scale(1.2) rotate(-5deg);
+    }
+
+    /* Testimonial Section */
+    .testimonial-heading h1{
+        max-width: 80%;
+    }
+    .testimonial-wrapper{
+        margin: 10px 0 ;
+        flex-direction: column;
+        justify-content: center;
+        height: auto ;
+    }
+    .testimonial-wrapper > img{
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+    .testimonial-card-wrapper{
+        width: 100%;
+    }
+    .testi-description{
+        height: 200px;
+        padding-right: 25px;
+    }
+    .testi-description p{
+        font-size: 1rem;
+    }
+
+    /* Form section */
+    .form-wrapper{
+        flex-direction: column-reverse;
+        margin: 30px 0;
+    }
+    .form-input{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .form-info{
+        width: 100%;
+        margin-bottom:20px ;
+    }
+
+    /* Registration section */
+    .registration{
+        width: 100% !important;
+    }
+    .registration p{
+        max-width: 80% !important;
+    }
+
+    /* Footer */
+    footer{
+        padding: 50px;
+    }
+    .middle-footer{
+        width: 100%;
+    }
+}
+/* End of Medium Devices */
+
+/* Small Devices */
+@media screen and (max-width: 576px){
+    .container{
+        width: 100% !important;
+        padding: 0 30px;
+    }
+    /* Navbar */
+    nav{
+        width: 100%;
+        padding: 0 30px;
+    }
+    nav ul{
+        border-radius: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        background: #34364A;
+        align-items: center;
+        justify-content: flex-start;
+        z-index: -1;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all .3s .2s;
+    }
+    /* Class untuk memunculkan navbar */
+    nav ul.slide{
+        transform: translateY(38%);
+        opacity: 1;
+    }
+    /* Akhir dari class */
+    nav ul li{
+        width: 70%;
+        text-align: center;
+        margin: 40px 0 0;
+        transition: .4s;
+    }
+    nav ul li a{
+        font-size: 1.1em;
+        color: #8d8d8d;
+    }
+    nav ul li a:hover{
+        color: white;
+    }
+    .btn-utility{
+        display: absolute;
+        right: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn-utility a{
+        margin: 20px 0 0;
+        font-size: 1em;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: white !important;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+
+    /* Hero Section */
+    h1.hero-heading{
+        font-size: 2.5rem !important;
+    }
+    .hero-typography,.hero-image img,.service-card-wrapper{
+        width: 100%;
+    }
+    p.hero-paragraph{
+        max-width: 100%;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .hero-image .lottie{
+        width: 100%;
+        height: 350px;
+     }
+
+    /* Services Section */
+    .service-heading h3,.class-heading h3,.mentor-heading h3,.testimonial-heading h3{
+        font-size: 1rem;
+    }
+    .service-heading h1,.class-heading h1,.mentor-heading h1,.testimonial-heading h1{
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    .service-card-wrapper img {
+        width: 50px;
+    }
+    .service-card-wrapper h3 {
+        margin: 20px 0 10px;
+        font-size: 1.2rem;
+    }
+
+    .service-card-wrapper p {
+        font-size: .8rem;
+    }
+    .form-heading h1{
+        font-size: 2rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+    
+    /* Class Section */
+    .class-card-wrap {
+        height:550px !important;
+        padding: 0;
+        margin: 0 0 55px;
+    }
+    .class-card-wrap > img{
+        width: 100%;
+        height: auto;
+    }
+    .class-description{
+        margin: 20px 0 20px 20px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .class-description h1{
+        font-size: 1.1rem;
+    }
+    .discount-class > p{
+        font-size: .8rem;
+    }
+    .class-rating > img{
+        width: 130px;
+    }
+    .card-footer{
+        height: 150px;
+    }
+
+    /* Mentor Profile Section  */
+    .profile-box {
+        width: 100%;
+      } 
+
+    /* Testimonial Section */
+    .testi-description{
+        height: 170px;
+    }
+    .testi-description p{
+        font-size: .6rem;
+    }
+    .testi-profile h3{
+        font-size: .9rem;
+    }
+    .testi-profile span{
+        color: #34364ab7;
+        font-size: .6rem;
+    }
+
+    /* Form section */
+    .form-wrapper {
+        row-gap: 0px;
+    }
+
+    .form-info {
+        width: 100%;
+        flex-direction: column;
+        column-gap: 0;
+    }
+
+    .form .info-box {
+        width: 100%;
+    }
+
+    .form-info .info-box i{
+        font-size: 1.2rem;
+        width: 50px;
+        height:50px;
+        line-height: 50px;
+    }
+    .info-box-desc{
+        font-size: .8rem;
+    }
+
+    /* Registration */
+    .registration h1{
+        font-size: 1.5rem;
+    }
+    .registration p{
+        font-size: .9rem;
+        max-width: 90% !important;
+    }
+
+    .courses .courses-heading h1,
+    .reviews .reviews-heading h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .courses .courses-heading p,
+    .reviews .reviews-heading p {
+        font-size: 15px !important;
+    }
+
+  /* Footer */
+  footer{
+    align-items: center;
+    text-align: center;
+    height: 1100px;
+  }
+  .footer-top{
+      height: 130px;
+  }
+  .footer-icons{
+      width: 60%;
+      margin: 0 auto;
+  }
+  .middle-footer{
+      flex-direction: column;
+      justify-content: space-around;
+      height: 760px;
+  }
+  .middle-footer ul li{
+     margin:20px 0;
+    }
+
+    footer p:last-child{
+        margin-top:0 !important;
+    }
+}
